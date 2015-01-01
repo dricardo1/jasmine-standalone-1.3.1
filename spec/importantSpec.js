@@ -1,5 +1,5 @@
 describe("important", function() {
-	it("Should be sent", function() {
+	it("It should be sent", function() {
 		spyOn(jQuery, "ajax");
 
 		important.send({"Jeg ar": Math.random()});
